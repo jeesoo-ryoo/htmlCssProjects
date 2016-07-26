@@ -1,0 +1,108 @@
+@import url(reset.css);
+
+body, a {
+	font-size: small;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	vertical-align: baseline;
+}
+
+div {
+	overflow: visible;
+	display: block;
+}
+
+.head {
+	height: 59px;
+	width: 100%;
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #666;
+	border-color: #e5e5e5;
+}
+
+
+.hl, .logo, .searchbar {
+	float: left;
+	display: inline-block;
+	z-index: 1;
+	align-items: center;
+}
+
+.hr, .hl {
+	margin-top: 10px;
+}
+
+
+.logo {
+	margin-top: 3px;
+	margin-left: 15px;
+}
+
+.toplogo {
+	height: 30.5px;
+}
+
+.searchbar {
+	display: flex;
+	padding-left: 11px;
+	width: 638px;
+	height: 38px;
+}
+
+.bar {
+	background-color: #fff;
+	border: 1px solid #e5e5e5 ;
+	height: 100%;
+	width: 100%;
+}
+
+.mic {
+	float: right;
+	height: 24px;
+	padding: 5px 10px;
+	position: relative;
+}
+
+.mag {
+	float: right;
+	background-color: #4285f4;
+	height: 40px;
+	width: 40px;
+	border: none;
+	border-radius: 0 2px 2px 0;
+}
+
+img.magicon {
+	margin: 7px 0 0 7px;
+}
+
+.hr {
+	position: relative;
+	display: inline-flex;
+	float: right;
+	max-width: 130px;
+	padding: 0 30px;
+	align-items: center;
+}
+
+.signin {
+	padding-left: 15px;
+}
+
+a.button {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 12px;
+	line-height: 28px;
+	background-color: #4285f4;
+	border-radius: 3px;
+}
+
+.apps {
+	display: inline-block;
+	flex: 
+}
