@@ -1,6 +1,6 @@
 # google-homepage
 
-https://github.com/jsryoo/google-homepage.git
+http://htmlpreview.github.io/?https://github.com/rjeesoo/htmlCssProjects/blob/master/mockingGoogle-main/index.html
 
 
 This project is mocking Google main web page.<br />
