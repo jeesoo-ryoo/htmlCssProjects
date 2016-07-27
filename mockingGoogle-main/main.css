@@ -245,21 +245,28 @@ a:visited {
 	width: 100%;
 }
 
-div.fr, div.fl {
+div.fr, div.fl, div.fm{
 	height: 100%;
 	white-space: nowrap;
 }
 
 div.fr {
-	margin-right: 30px;
+	margin-right: 40px;
 	float: right;
 }
+div.fm {
+	margin-left: 100px;
+	margin-right: 150px;
+	float: right;
+}
+
 div.fl {
-	margin-left: 30px;
+	margin-left: 40px;
 	float: left;
 }
 
-a.fr, a.fl {
+
+a.fr, a.fl, a.fm {
 	height: 100%;
 	display: inline-block;
 	text-decoration: none;
@@ -267,4 +274,3 @@ a.fr, a.fl {
 	padding-left: 13px;
 	padding-right: 13px;
 }
-
